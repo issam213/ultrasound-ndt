@@ -1,0 +1,16 @@
+[settings]
+material = steel
+velocity = 5920
+depth_start = 0.01
+depth_end = 0.50
+num_depths = 5
+frequency = 5000000
+noise_level = 0.05
+
+[paths]
+data_folder = ./data/
+images_folder = ./images/
+signal_file = ./data/signal.npy
+echo_times_file = ./data/echo_times.npy
+amplitudes_file = ./data/amplitudes.npy
+plot_file = ./images/ultrasound_scan.png
