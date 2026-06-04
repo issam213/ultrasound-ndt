@@ -3,7 +3,12 @@
 
 
 \## Description
-![Ultrasound Testing Principle](./images/ultrasonic-testing.jpg)
+
+<img src="./images/ultrasonic-testing.jpg" alt="Ultrasound Testing Principle" width="400"/>
+
+<br>
+
+
 Non-destructive testing (NDT) is a method to inspect materials without causing damage. This software simulates \*\*ultrasound pulse-echo testing\*\* to detect defects (cracks, voids) inside materials.
 
 
@@ -59,17 +64,11 @@ where α is the attenuation coefficient.
 
 
 | File | Description |
-
 |------|-------------|
-
 | ultrasound.py | Core physics functions |
-
 | simulation.py | Runs the simulation |
-
 | plots.py | Creates graphs |
-
 | testing.py | Unit tests |
-
 | configuration.txt | User parameters |
 
 \## How to Run
@@ -119,17 +118,11 @@ The simulation produces three plots:
 
 
 | File | Description |
-
 |------|-------------|
-
 | `ultrasound.py` | Pure physics functions |
-
 | `simulation.py` | Runs simulation for multiple depths |
-
 | `plots.py` | Creates publication-ready plots |
-
 | `testing.py` | Unit tests for all core functions |
-
 | `configuration.txt` | Parameters read by configparser |
 
 
