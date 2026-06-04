@@ -3,7 +3,7 @@
 
 
 \## Description
-
+![Ultrasound Testing Principle](./images/ultrasonic-testing.jpg)
 Non-destructive testing (NDT) is a method to inspect materials without causing damage. This software simulates \*\*ultrasound pulse-echo testing\*\* to detect defects (cracks, voids) inside materials.
 
 
