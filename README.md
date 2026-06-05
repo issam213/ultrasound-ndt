@@ -9,7 +9,7 @@
 <br>
 
 
-Non-destructive testing (NDT) is a method to inspect materials without causing damage. This software simulates \*\*ultrasound pulse-echo testing\*\* to detect defects (cracks, voids) inside materials.
+Non-destructive testing (NDT) is a method to inspect materials without causing damage. This software simulates **ultrasound pulse-echo testing** to detect defects (cracks, voids) inside materials.
 
 
 
@@ -17,7 +17,7 @@ When an ultrasound pulse is sent into a material, it reflects from any defect. B
 
 - **Echo time** → we calculate defect depth
 
-- \*\*Echo amplitude\*\* → we estimate defect size
+- **Echo amplitude** → we estimate defect size
 
 
 
@@ -37,9 +37,9 @@ t = 2 × d / v
 
 where:
 
-\- t = echo time (seconds)
+- t = echo time (seconds)
 
-\- d = defect depth (meters)
+- d = defect depth (meters)
 
 \- v = sound velocity in material (m/s)
 
