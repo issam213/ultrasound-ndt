@@ -41,7 +41,7 @@ where:
 
 - d = defect depth (meters)
 
-\- v = sound velocity in material (m/s)
+- v = sound velocity in material (m/s)
 
 
 
@@ -105,11 +105,11 @@ python testing.py
 
 The simulation produces three plots:
 
-\- Echo time vs depth (linear relationship)
+- Echo time vs depth (linear relationship)
 
-\- Echo amplitude vs depth (exponential decay)
+- Echo amplitude vs depth (exponential decay)
 
-\- Sample A-scan showing initial pulse and defect echo
+- Sample A-scan showing initial pulse and defect echo
 
 
 
