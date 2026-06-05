@@ -101,6 +101,7 @@ python testing.py
 
 ## Results
 
+![My Results](./images/results.png)
 
 
 The simulation produces three plots:
