@@ -15,7 +15,7 @@ Non-destructive testing (NDT) is a method to inspect materials without causing d
 
 When an ultrasound pulse is sent into a material, it reflects from any defect. By measuring:
 
-\- \*\*Echo time\*\* → we calculate defect depth
+- \*\*Echo time\*\* → we calculate defect depth
 
 \- \*\*Echo amplitude\*\* → we estimate defect size
 
