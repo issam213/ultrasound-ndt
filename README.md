@@ -71,7 +71,7 @@ where α is the attenuation coefficient.
 | testing.py | Unit tests |
 | configuration.txt | User parameters |
 
-\## How to Run
+## How to Run
 
 
 
