@@ -129,7 +129,7 @@ The simulation produces three plots:
 
 ## Author
 
-Issam Azrouisghi
+Issam Azrou isghi
 
 Software and Computing for Applied Physics - University of Bologna
 
