@@ -35,6 +35,18 @@ depths = np.linspace(depth_start, depth_end, num_depths)
 # Theoretical echo times
 theoretical_times = 2 * depths / velocity
 
+# Calculate depth estimation error
+estimated_depths = velocity * echo_times / 2
+depth_errors = (estimated_depths - depths) * 100  # error in cm
+print("\nDepth Estimation Errors:")
+print(f"{'Actual (cm)':<15} {'Estimated (cm)':<15} {'Error (cm)':<12}")
+print("-" * 45)
+for i in range(len(depths)):
+    actual_cm = depths[i] * 100
+    est_cm = estimated_depths[i] * 100 if echo_times[i] > 0 else 0
+    error_cm = depth_errors[i] if echo_times[i] > 0 else 0
+    print(f"{actual_cm:<15.1f} {est_cm:<15.2f} {error_cm:<12.3f}")
+
 # Create figure
 fig, (ax1, ax2, ax3) = plt.subplots(1, 3, figsize=(15, 5))
 
@@ -59,8 +71,11 @@ mid_idx = len(signals) // 2
 t = np.linspace(0, 0.001, len(signals[mid_idx]))
 ax3.plot(t * 1e6, signals[mid_idx], 'b-', linewidth=1)
 if echo_times[mid_idx] > 0:
-    ax3.axvline(echo_times[mid_idx] * 1e6, color='red', linestyle='--', 
-                label=f'Echo at {echo_times[mid_idx]*1e6:.1f} μs')
+    echo_us = echo_times[mid_idx] * 1e6
+    ax3.axvline(echo_us, color='red', linestyle='--', 
+                label=f'Echo at {echo_us:.1f} μs')
+    # Zoom in around the echo
+    ax3.set_xlim(echo_us - 50, echo_us + 50)
 ax3.set_xlabel('Time (μs)')
 ax3.set_ylabel('Amplitude')
 ax3.set_title(f'A-scan at depth = {depths[mid_idx]*100:.1f} cm')

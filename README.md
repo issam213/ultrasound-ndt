@@ -101,7 +101,7 @@ python testing.py
 
 ## Results
 
-![My Results](./images/results.png)
+![Simulation Results](./images/ultrasound_scan.png)
 
 
 The simulation produces three plots:
