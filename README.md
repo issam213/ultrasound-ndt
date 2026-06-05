@@ -1,8 +1,8 @@
-\# Ultrasound NDT Flaw Detector
+# Ultrasound NDT Flaw Detector
 
 
 
-\## Description
+## Description
 
 <img src="./images/ultrasonic-testing.jpg" alt="Ultrasound Testing Principle" width="400"/>
 
@@ -21,11 +21,11 @@ When an ultrasound pulse is sent into a material, it reflects from any defect. B
 
 
 
-\## Physics Background
+## Physics Background
 
 
 
-\### Time of Flight
+### Time of Flight
 
 The echo returns after traveling to the defect and back:
 
@@ -45,7 +45,7 @@ where:
 
 
 
-\### Attenuation
+### Attenuation
 
 As ultrasound travels, its amplitude decreases exponentially:
 
@@ -59,7 +59,7 @@ where α is the attenuation coefficient.
 
 
 
-\## Project Structure
+## Project Structure
 
 
 
@@ -75,31 +75,31 @@ where α is the attenuation coefficient.
 
 
 
-\### 1. Install dependencies
+### 1. Install dependencies
 
 pip install numpy matplotlib pytest
 
 
 
-\### 2. Run simulation
+### 2. Run simulation
 
 python simulation.py configuration.txt
 
 
 
-\### 3. Generate plots
+### 3. Generate plots
 
 python plots.py configuration.txt
 
 
 
-\### 4. Run tests
+### 4. Run tests
 
 python testing.py
 
 
 
-\## Results
+## Results
 
 
 
@@ -113,7 +113,7 @@ The simulation produces three plots:
 
 
 
-\## File Descriptions
+## File Descriptions
 
 
 
@@ -127,7 +127,7 @@ The simulation produces three plots:
 
 
 
-\## Author
+## Author
 
 Issam Azrouisghi
 
