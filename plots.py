@@ -86,4 +86,4 @@ plt.tight_layout()
 plt.savefig(plot_file, dpi=150)
 plt.show()
 
-print(f"\n✅ Plot saved to: {plot_file}")
+print(f"\n Plot saved to: {plot_file}")
