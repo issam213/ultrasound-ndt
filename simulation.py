@@ -55,7 +55,7 @@ np.save(signal_file, signals)
 np.save(echo_times_file, echo_times)
 np.save(amplitudes_file, amplitudes)
 
-print("\n✅ Simulation complete!")
+print("\n Simulation complete!")
 print(f"   Signals saved to: {signal_file}")
 print(f"   Echo times saved to: {echo_times_file}")
 print(f"   Amplitudes saved to: {amplitudes_file}")
